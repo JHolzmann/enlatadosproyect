@@ -15,15 +15,24 @@ header nav div ul{
 
 main section h1{
     width: 100%;
-    height: 150px;
+    height: 300px;
     background-image: url(../assets/image/home-img/imagen\ de\ fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #fefadc;
     text-align: center;
 
 }
 
+main section h2{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 8dvh;
+    color: #3f612d;
+}
+
 .img-logo{
-    height: 50px;
+    height: 15dvh;
     width: auto;
 }
 
@@ -31,6 +40,13 @@ main section h1{
     .busqueda{
         display: none;
     }
+}
+
+footer{
+    display: flex;
+    background-color: #f6d4ba;
+    justify-content: space-between;
+    margin-top: 8dvh;
 }
 
 .iframe{
